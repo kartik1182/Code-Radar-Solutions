@@ -3,6 +3,6 @@
 int main() {
     float r;
     scanf("%f",&r);
-    printf("Area: %f", PI * r * r);
+    printf("Area: %.2f", PI * r * r);
     return 0;
 }
