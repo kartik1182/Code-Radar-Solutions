@@ -4,7 +4,10 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if(a == 2) printf("Prime");
+    if(a == 2){
+        printf("Prime");
+        return 0;
+    }printf("Prime");
     else if ( a== 0 || a == 1) printf("Not Prime");
     bool flag;
     flag = true;
