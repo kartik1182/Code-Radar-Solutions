@@ -2,7 +2,7 @@
 
 int main(){
     char a_;
-    scanf("%d", &a_);
+    scanf("%c", &a_);
     if(a_>=0 && a_<=9){
         printf("Digit");
     }
