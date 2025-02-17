@@ -11,7 +11,7 @@ int main(){
     for(int i = 2; i < a; i++){
         if(a % i == 0) flag = false;
     }
-    else if(flag) printf("Prime");
+    if(flag) printf("Prime");
     else printf("Not Prime");
     return 0;
 }
