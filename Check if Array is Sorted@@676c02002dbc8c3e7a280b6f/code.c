@@ -12,6 +12,7 @@ int main(){
     for(int i = 1 ; i < n; i++){
         if(arr[i-1] > arr[i]){
             printf("Not Sorted");
+            break;
         }
     }
 
