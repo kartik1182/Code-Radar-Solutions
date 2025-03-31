@@ -10,7 +10,7 @@ int main(){
     }
 
     int k;
-    scanf("%d", &k)
+    scanf("%d", &k);
 
     // for rotation of array elements
     for(int i = 0; i < n; i++){
