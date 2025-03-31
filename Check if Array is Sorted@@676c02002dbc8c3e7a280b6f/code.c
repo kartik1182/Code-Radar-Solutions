@@ -11,9 +11,9 @@ int main(){
 
     for(int i = 1 ; i < n; i++){
         if(arr[i-1] > arr[i]){
-            return "Not Sorted";
+            printf("Not Sorted");
         }
     }
 
-    return "Sorted";
+    printf("Sorted");
 }
