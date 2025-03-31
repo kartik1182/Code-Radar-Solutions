@@ -13,12 +13,13 @@ int main(){
     scanf("%d", &k);
 
     // for rotation of array elements
+    int temp[n]
     for(int i = 0; i < n; i++){
-        arr[i] = arr[k%n];
+        temp[(i+k)%n] = arr[i];
     }
 
     for(int i = 0; i < n; i++){
-        printf("%d" , arr[i]);
+        printf("%d" , temp[i]);
     }
 
 
