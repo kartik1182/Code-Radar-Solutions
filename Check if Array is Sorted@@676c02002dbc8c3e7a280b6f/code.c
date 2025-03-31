@@ -14,7 +14,9 @@ int main(){
             printf("Not Sorted");
             break;
         }
+    }else{
+        printf("Sorted");
     }
 
-    printf("Sorted");
+    
 }
